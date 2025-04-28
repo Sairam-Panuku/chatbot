@@ -1,0 +1,119 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hi", "hello", "hey", "good morning", "good evening", "howdy", "hey there"],
+            "responses": ["Hello!", "Hi there!", "Hey! How can I help you today?", "Good day! How can I assist you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "see you", "goodbye", "talk to you later", "catch you later", "take care"],
+            "responses": ["Goodbye!", "See you soon!", "Have a great day!", "Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "thanks a lot", "thank you so much", "appreciate it"],
+            "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!"]
+        },
+        {
+            "tag": "menu",
+            "patterns": ["show me the menu", "what's on the menu", "food list", "what do you serve", "menu options"],
+            "responses": ["Our menu includes pasta, pizza, and salads.", "We offer a variety of Italian and continental dishes.", "Check out our menu online!"]
+        },
+        {
+            "tag": "membership",
+            "patterns": ["gym membership", "how much for gym", "gym fees", "membership options", "what's the cost of gym membership"],
+            "responses": ["Gym memberships start at $30/month!", "Our gym membership starts at $20 for a monthly pass.", "We have flexible membership plans starting from $15 per month."]
+        },
+        {
+            "tag": "appointment",
+            "patterns": ["book appointment", "schedule appointment", "need an appointment", "how to book an appointment", "make an appointment"],
+            "responses": ["You can book an appointment through our website or call us!", "Please visit our online booking page to schedule an appointment."]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["what are your hours", "when do you open", "business hours", "operating hours", "working hours"],
+            "responses": ["We are open from 9 AM to 9 PM every day!", "Our restaurant operates from 10 AM to 10 PM.", "We are available from 6 AM to 8 PM, Monday to Saturday."]
+        },
+        {
+            "tag": "location",
+            "patterns": ["where are you located", "location", "address", "where is your restaurant", "find us"],
+            "responses": ["We are located at 123 Main Street, Downtown.", "Our gym is located at 456 Fitness Ave.", "Find us at 789 Wellness Blvd."]
+        },
+        {
+            "tag": "services",
+            "patterns": ["what services do you offer", "services", "what do you provide", "what's available", "services menu"],
+            "responses": ["We offer personal training, group classes, and nutrition advice at our gym.", "Our restaurant serves breakfast, lunch, and dinner options.", "We provide consultation, therapy, and wellness services at our clinic."]
+        },
+        {
+            "tag": "pricing",
+            "patterns": ["how much does it cost", "pricing", "price list", "cost", "fees"],
+            "responses": ["Our prices vary depending on the service. Check our pricing page for more details.", "Prices start at $10 per meal.", "Gym memberships start at $20 per month."]
+        },
+        {
+            "tag": "payment",
+            "patterns": ["how can I pay", "payment options", "what payment methods do you accept", "can I pay with a credit card"],
+            "responses": ["We accept credit card, debit card, and cash payments.", "You can pay via credit card, PayPal, or bank transfer.", "We accept all major credit cards, Apple Pay, and Google Pay."]
+        },
+        {
+            "tag": "dietary_restrictions",
+            "patterns": ["do you have vegetarian options", "are there gluten-free meals", "do you serve vegan food", "any dairy-free options"],
+            "responses": ["Yes, we offer vegetarian, vegan, and gluten-free options.", "Our menu includes dairy-free and gluten-free dishes.", "We cater to all dietary restrictions. Let us know your preferences."]
+        },
+        {
+            "tag": "delivery",
+            "patterns": ["do you deliver", "delivery options", "can I order food online", "is delivery available", "can I get my meal delivered"],
+            "responses": ["Yes, we offer delivery through Uber Eats and DoorDash.", "We provide food delivery services. You can place an order through our website.", "Delivery is available within a 5-mile radius of our location."]
+        },
+        {
+            "tag": "opening_time",
+            "patterns": ["when do you open", "opening time", "when are you open", "first opening time"],
+            "responses": ["We open at 9 AM daily.", "Our clinic opens at 7 AM.", "We open at 10 AM on weekdays."]
+        },
+        {
+            "tag": "closing_time",
+            "patterns": ["when do you close", "closing time", "last closing time", "when do you shut down"],
+            "responses": ["We close at 9 PM.", "Our restaurant closes at 10 PM.", "We close at 8 PM on Sundays."]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["I want to leave feedback", "how can I provide feedback", "I want to rate my experience", "can I leave a review"],
+            "responses": ["We would love to hear your feedback! Please visit our review page.", "Your feedback is valuable to us. You can leave a review on our website."]
+        },
+        {
+            "tag": "reservations",
+            "patterns": ["do I need to make a reservation", "can I reserve a table", "reservation required", "how to book a table"],
+            "responses": ["Reservations are recommended for weekends.", "Please call us or use our website to book a table.", "Reservations are required for large parties."]
+        },
+        {
+            "tag": "events",
+            "patterns": ["do you host events", "events at your gym", "events at your restaurant", "upcoming events"],
+            "responses": ["Yes, we host fitness events and group classes.", "We have a live music event every Friday night!", "Check our events page for upcoming activities."]
+        },
+        {
+            "tag": "fitness_classes",
+            "patterns": ["do you offer fitness classes", "fitness classes schedule", "what classes do you offer", "gym class availability"],
+            "responses": ["Yes, we offer yoga, Pilates, and HIIT classes.", "Our gym offers fitness classes every day. Check our schedule online.", "We have classes for all levels – from beginner to advanced."]
+        },
+        {
+            "tag": "appointments_cancellation",
+            "patterns": ["I need to cancel my appointment", "can I cancel my appointment", "appointment cancellation policy"],
+            "responses": ["You can cancel your appointment up to 24 hours in advance.", "Please call or email to cancel your appointment."]
+        },
+        {
+            "tag": "clinic_services",
+            "patterns": ["what services does your clinic offer", "clinic services", "health services", "clinic appointment"],
+            "responses": ["We offer consultations, therapy, and health check-ups at our clinic.", "Our clinic provides various health services such as physiotherapy, consultations, and treatments."]
+        },
+        {
+            "tag": "food_allergies",
+            "patterns": ["do you accommodate food allergies", "food allergy options", "I have a nut allergy, can I eat here", "are your meals allergy-friendly"],
+            "responses": ["Yes, we can accommodate most food allergies. Let us know when you place your order.", "We take food allergies seriously and can provide allergy-free meals upon request."]
+        },
+        {
+            "tag": "special_offers",
+            "patterns": ["are there any special offers", "discounts", "deals", "current promotions"],
+            "responses": ["Yes! We have a 20% discount on your first order.", "Check our website for current discounts and special offers."]
+        }
+    ]
+}
