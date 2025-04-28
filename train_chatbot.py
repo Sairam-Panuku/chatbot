@@ -2,16 +2,12 @@ import json
 import random
 import pickle
 
-import nltk
-nltk.download('punkt_tab')
+
 
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-# Download NLTK data (only first time)
-nltk.download('punkt')
-nltk.download('wordnet')
 
 # Initialize
 lemmatizer = WordNetLemmatizer()
