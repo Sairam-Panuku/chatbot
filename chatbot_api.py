@@ -78,7 +78,9 @@ def chat():
 @app.route('/')
 def index():
     return jsonify({"message": "Welcome to the chatbot API! Use the /chat endpoint for chat."})
+import os
 
 if __name__ == "__main__":
-    # Run the app in debug mode
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))  # get PORT from environment
+    app.run(host="0.0.0.0", port=port, debug=True)
+
